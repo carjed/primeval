@@ -1,0 +1,7 @@
+name: primeval-environment
+channels:
+        - conda-forge
+dependencies:
+        - numpy
+        - pandas
+        - msprime
