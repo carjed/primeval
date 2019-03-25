@@ -4,7 +4,7 @@ import math
 ###############################################################################
 # Gutenkunst et al., 2009
 ###############################################################################
-def gutenkunst_model(mu=1.5e-8, phi=0, length=1e4, n_afr=0, n_eas=0, n_eur=0, debug=False):
+def gutenkunst_model(mu=1.5e-8, phi=0, length=1e4, n_afr=0, n_eas=0, n_eur=0, seed=100, debug=False):
     # First we set out the maximum likelihood values of the various parameters
     # given in Table 1.
     N_A = 7300
@@ -78,7 +78,7 @@ def gutenkunst_model(mu=1.5e-8, phi=0, length=1e4, n_afr=0, n_eas=0, n_eur=0, de
                                mutation_rate=mu, 
                                recombination_rate=phi, 
                                length=length,
-                               random_seed=30)
+                               random_seed=seed)
         return sim
 
 ###############################################################################

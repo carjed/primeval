@@ -1,5 +1,11 @@
 # primeval
 
+**NOTICE**
+
+A separate community-maintained library of standard simulation population genetic simulation models has been started at https://github.com/popgensims/stdpopsim. The demographic models here will eventually be merged into that repository.
+
+--------
+
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/carjed/primeval/master)
 
 `primeval` is a small Python module with functions for performing coalescent simulations under various models of human demographic history, using the [msprime](https://github.com/tskit-dev/msprime) reimplementation of Richard Hudson’s seminal `ms` program.
